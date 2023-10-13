@@ -1,28 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package mx.edu.itsur.pokebatalla.model;
 
-/**
- *
- * @author FJML1983
- */
+import java.util.ArrayList;
+
+//@Author Imxnxl
 public class Arbok extends Pokemon {
 
     public Arbok() {
-        tipo = "VENENO";
-        hp = 60;
-        ataque = 85;
-        defensa = 69;
-        nivel = 1;
-        precision = 4;
+        this.tipo = "VENENO";
+        this.hp = 60;
+        this.ataque = 85;
+        this.defensa = 69;
+        this.nivel = 1;
+        this.precision = 7;
+        this.habilidades = new ArrayList<>();
+        this.habilidades.add("MORDISCO");
+        this.habilidades.add("COIL");
+        this.habilidades.add("POISONGAS");
     }
 
-    //Constructor alterno 1
-    public Arbok(String nombre){
-        this(); //invocando al constructor default
+    public Arbok(String nombre) {
+        this();
         this.nombre = nombre;
     }
-    
+
+    public void atacar(Pokemon oponente, String habilidad) {
+        if (habilidad.equals("MORDISCO")) {
+            System.out.println("Realizando Mordisco");
+        } else if (habilidad.equals("COIL")) {
+            System.out.println("Realizando Coil");
+        } else if (habilidad.equals("POISONGAS")) {
+            System.out.println("Realizando Poison Gas");
+        }
+    }
 }

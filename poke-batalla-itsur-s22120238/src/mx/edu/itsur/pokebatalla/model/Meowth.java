@@ -1,28 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package mx.edu.itsur.pokebatalla.model;
 
-/**
- *
- * @author FJML1983
- */
+import java.util.ArrayList;
+
+//@Author Imxnxl
 public class Meowth extends Pokemon {
 
     public Meowth() {
-        tipo = "NORMAL";
-        hp = 40;
-        ataque = 45;
-        defensa = 35;
-        nivel = 1;
-        precision = 4;
+        this.tipo = "NORMAL";
+        this hp = 40;
+        this.ataque = 45;
+        this.defensa = 35;
+        this.nivel = 1;
+        this.precision = 6;
+        this.habilidades = new ArrayList<>();
+        this.habilidades.add("ARAÑAZO");
+        this.habilidades.add("MORDISCO");
+        this.habilidades.add("CANTO");
     }
 
-    //Constructor alterno 1
-    public Meowth(String nombre){
-        this(); //invocando al constructor default
+    public Meowth(String nombre) {
+        this();
         this.nombre = nombre;
     }
-    
+
+    public void atacar(Pokemon oponente, String habilidad) {
+        if (habilidad.equals("ARAÑAZO")) {
+            System.out.println("Realizando Arañazo");
+        } else if (habilidad.equals("MORDISCO")) {
+            System.out.println("Realizando Mordisco");
+        } else if (habilidad.equals("CANTO")) {
+            System.out.println("Realizando Canto");
+        }
+    }
 }

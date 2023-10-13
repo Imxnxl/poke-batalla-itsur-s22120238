@@ -1,29 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package mx.edu.itsur.pokebatalla.model;
 
-/**
- *
- * @author FJML1983
- */
+import java.util.ArrayList;
+
+//@Author Imxnxl
 public class Charizard extends Pokemon {
 
     public Charizard() {
-        tipo = "FUEGO/VOLADOR";
-        hp = 78;
-        ataque = 84;
-        defensa = 78;
-        nivel = 1;
-        precision = 4;
+        this.tipo = "FUEGO";
+        this.hp = 78;
+        this.ataque = 84;
+        this.defensa = 78;
+        this.nivel = 1;
+        this.precision = 8;
+        this.habilidades = new ArrayList<>();
+        this.habilidades.add("LANZALLAMAS");
+        this.habilidades.add("GARRADEDRAGON");
+        this.habilidades.add("TORMENTO");
     }
 
-    //Constructor alterno 1
-    public Charizard(String nombre){
-        this(); //invocando al constructor default
+    public Charizard(String nombre) {
+        this();
         this.nombre = nombre;
     }
-    
-}
 
+    public void atacar(Pokemon oponente, String habilidad) {
+        if (habilidad.equals("LANZALLAMAS")) {
+            System.out.println("Realizando Lanzallamas");
+        } else if (habilidad.equals("GARRADEDRAGON")) {
+            System.out.println("Realizando Garra de Dragón");
+        } else if (habilidad.equals("TORMENTO")) {
+            System.out.println("Realizando Tormento");
+        }
+    }
+}
