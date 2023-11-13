@@ -6,7 +6,7 @@
 
     /**
  *
- * @author Imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
     public abstract class Pokemon {
 

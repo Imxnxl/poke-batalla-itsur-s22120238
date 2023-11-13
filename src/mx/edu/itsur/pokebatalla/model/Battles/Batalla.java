@@ -9,7 +9,7 @@ import mx.edu.itsur.pokebatalla.model.Pokemons.Pokemon;
 
 /**
  *
- * @author Imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
 public class Batalla {
 

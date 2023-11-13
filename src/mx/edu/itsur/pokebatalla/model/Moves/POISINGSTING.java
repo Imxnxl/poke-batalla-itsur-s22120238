@@ -2,7 +2,7 @@ package mx.edu.itsur.pokebatalla.model.Moves;
 
 /**
  *
- * @author Imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
 public class POISINGSTING extends MovimientoEspecial{
     public POISINGSTING  ()

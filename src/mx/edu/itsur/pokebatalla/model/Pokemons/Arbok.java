@@ -6,7 +6,7 @@ import mx.edu.itsur.pokebatalla.model.moves.ACID;
         /*
         /**
         *
-        * @author Imanol
+        * @author Josue Imanol Saavedra Mandujano
         */
 public class Arbok extends Pokemon {
 

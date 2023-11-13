@@ -2,7 +2,7 @@ package mx.edu.itsur.pokebatalla.model.Moves;
 
 /**
  *
- * @author Imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
 public class GLARE extends MovimientoFisico{
     public GLARE  ()

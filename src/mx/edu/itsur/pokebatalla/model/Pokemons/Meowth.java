@@ -11,7 +11,7 @@ import mx.edu.itsur.pokebatalla.model.Moves.PAYDAY;
 import mx.edu.itsur.pokebatalla.model.Moves.BITE;
 /**
  *
- * @author IMANOL
+ * @author Josue Imanol Saavedra Mandujano
  */
 public  class Meowth extends Pokemon {
      public  enum Movimientos{

@@ -5,7 +5,7 @@ import mx.edu.itsur.pokebatalla.model.Battles.Entrenador;
 
 /**
  *
- * @author imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
 public class Main {
 

@@ -1,6 +1,6 @@
 /**
  *
- * @author Imanol
+ * @author Josue Imanol Saavedra Mandujano
  */
 package mx.edu.itsur.pokebatalla.model.Battles;
 

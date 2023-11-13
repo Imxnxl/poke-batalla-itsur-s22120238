@@ -5,7 +5,7 @@ import mx.edu.itsur.pokebatalla.model.Moves.WINGATTACK;
 import mx.edu.itsur.pokebatalla.model.Moves.Movimiento;
 /**
  *
- * @Author Imanol
+ * @Author Josue Imanol Saavedra Mandujano
  */
 
 public  class Charizard extends Pokemon {    
